@@ -60,6 +60,7 @@ class InteractiveRecord
     
     sql = <<_SQL
     SELECT * FROM #{table_name} 
+    WHERE
   end
   
 end
