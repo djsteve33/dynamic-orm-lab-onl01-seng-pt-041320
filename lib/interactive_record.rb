@@ -23,7 +23,8 @@ class InteractiveRecord
   
   def self.set_attrs
     column_names.each do |col_name|
-      attr_accessor col_name
+      attr_accessor col_name.to_symb
+    end
   end
   
 end
