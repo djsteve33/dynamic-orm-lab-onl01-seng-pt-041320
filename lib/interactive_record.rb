@@ -22,7 +22,7 @@ class InteractiveRecord
   end
   
   def self.set_attrs
-    
+    column_names.each 
   end
   
 end
