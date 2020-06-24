@@ -15,7 +15,7 @@ class InteractiveRecord
     end.compact
   end
   
-  def initialize
+  def initialize(attributes)
     
   end
   
