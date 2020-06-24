@@ -22,7 +22,8 @@ class InteractiveRecord
   end
   
   def self.set_attrs
-    column_names.each 
+    column_names.each do |column_name|
+      
   end
   
 end
