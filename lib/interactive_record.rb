@@ -63,6 +63,8 @@ class InteractiveRecord
     WHERE #{column_name} = ?
     SQL 
     
+    DB[:onn].execute(sql, value_name)
+    
   end
   
 end
