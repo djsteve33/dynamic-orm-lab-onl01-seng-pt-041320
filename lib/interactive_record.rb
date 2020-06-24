@@ -60,7 +60,7 @@ class InteractiveRecord
     
     sql = #<<_SQL
     "SELECT * FROM #{self.table_name} 
-    WHERE #{attributes.keys[0].to_s} = '#{attributes.values"
+    WHERE #{attributes.keys[0].to_s} = '#{attributes.values[0].to_s'"
     SQL 
     
     DB[:onn].execute(sql, value_name)
