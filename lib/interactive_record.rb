@@ -60,7 +60,7 @@ class InteractiveRecord
     
     sql = <<_SQL
     SELECT * FROM #{table_name} 
-    WHERE
+    WHERE #{column_name}
   end
   
 end
