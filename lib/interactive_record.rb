@@ -17,7 +17,7 @@ class InteractiveRecord
   
   def initialize(attributes = {})
     attributes.each do |property, value|
-      
+      send
     @id = attributes['id']
     @name = attributes['name']
     @grade = attributes['grade']
