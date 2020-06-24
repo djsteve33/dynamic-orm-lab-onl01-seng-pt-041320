@@ -59,7 +59,7 @@ class InteractiveRecord
     #value_name = attribute.values[0]
     
     sql = #<<_SQL
-    "SELECT * FROM #{table_name} 
+    "SELECT * FROM #{self.table_name} 
     WHERE #{column_name} = ?"
     SQL 
     
