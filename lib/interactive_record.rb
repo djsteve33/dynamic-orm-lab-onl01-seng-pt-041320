@@ -21,6 +21,8 @@ class InteractiveRecord
     end
   end
   
-  def self.set_attr
+  def self.set_attrs
+    
+  end
   
 end
