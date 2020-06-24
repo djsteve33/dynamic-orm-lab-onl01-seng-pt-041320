@@ -16,7 +16,8 @@ class InteractiveRecord
   end
   
   def initialize(attributes = {})
-    attributes.each do 
+    attributes.each do |property, value|
+      
     @id = attributes['id']
     @name = attributes['name']
     @grade = attributes['grade']
